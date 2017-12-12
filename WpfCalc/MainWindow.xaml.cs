@@ -47,11 +47,10 @@ namespace WpfCalc
         }
 
         private void buttonCalc_Click(object sender, RoutedEventArgs e)
-        {
+        {/*
             using (CalcToSQLDataContext db = new CalcToSQLDataContext())
             {
-                /* var all = from d in db.CalcInfos
-                           select d.tal1;*/
+                
                 CalcInfo c = new CalcInfo();
                 c.tal1 = tal1;
                 c.tal2 = tal2;
@@ -59,7 +58,7 @@ namespace WpfCalc
                 c.resultat = decimal.Parse(controlMethod());
                 db.CalcInfos.InsertOnSubmit(c);
                 db.SubmitChanges();
-            }
+            }*/
             displayTextbox.Text = controlMethod();
             tal1 = null;
             tal2 = null;
