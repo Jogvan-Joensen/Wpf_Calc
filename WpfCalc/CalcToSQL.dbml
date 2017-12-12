@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CalcInfo" Class="CalcToSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=CalcInfo;Integrated Security=True" SettingsObjectName="WpfCalc.Properties.Settings" SettingsPropertyName="CalcInfoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CalcInfo" Member="CalcInfos">
+    <Type Name="CalcInfo">
+      <Column Name="resID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tal1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="tal2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="metode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="resultat" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
