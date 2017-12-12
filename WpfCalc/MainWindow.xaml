@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCalc"
         mc:Ignorable="d"
-        Title="MainWindow" Height="380" Width="470">
+        Title="MainWindow" Height="385" Width="470">
     <Window.Resources>
         <Style x:Key="btn" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
